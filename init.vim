@@ -16,12 +16,14 @@ source ~/.config/nvim/plugs.vim
 
 colorscheme onedark 
 
-call rpcnotify(1, 'Gui', 'Font', 'FiraCode Nerd Font Mono 14')
+if exists('g:GtkGuiLoaded')
+  call rpcnotify(1, 'Gui', 'Font', 'FiraCode Nerd Font Mono 12')
+endif
 
 " Config editor limits
 set number
 set textwidth=100
-set guifont=Fira\ Code\ Nerd\ Font\ Mono:h12 
+set guifont=FiraCode\ Nerd\ Font\ Mono:h12
 set background=dark
 set autoindent
 set shiftwidth=2
