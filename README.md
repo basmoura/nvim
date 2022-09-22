@@ -19,6 +19,13 @@ git clone https://github.com/basmoura/nvim.git ~/.config/nvim
 after clone the repo, please run `nvim` to open NeoVim then type `:PlugInstall` to install the
 plugins
 
+### setup dev-icons
+
+first you need to install a [Nerd Font](https://www.nerdfonts.com/#home). I'm using FiraCode, but
+you use any you prefer.
+
+After install the font I just needed to change the font at iTerm2
+
 ### GUI suggestion
 https://github.com/qvacua/vimr (best for MacOS)
 https://github.com/daa84/neovim-gtk (best for Linux distros)

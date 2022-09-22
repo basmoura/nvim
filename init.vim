@@ -23,7 +23,7 @@ endif
 " Config editor limits
 set number
 set textwidth=100
-set guifont=FiraCode\ Nerd\ Font:h12
+set guifont=FiraCode\ Nerd\ Font\ Mono\:h12
 set background=dark
 set autoindent
 set shiftwidth=2
