@@ -14,16 +14,16 @@ endif
 
 source ~/.config/nvim/plugs.vim
 
-colorscheme onedark 
+colorscheme dracula
 
 if exists('g:GtkGuiLoaded')
-  call rpcnotify(1, 'Gui', 'Font', 'FiraCode Nerd Font Mono 12')
+  call rpcnotify(1, 'Gui', 'Font', 'FiraCode Nerd Font 12')
 endif
 
 " Config editor limits
 set number
 set textwidth=100
-set guifont=FiraCode\ Nerd\ Font\ Mono:h12
+set guifont=FiraCode\ Nerd\ Font:h12
 set background=dark
 set autoindent
 set shiftwidth=2
@@ -65,8 +65,8 @@ let g:mix_format_on_save = 1
 let g:mix_format_options = '--check-equivalent'
 
 " Loading the other configurations
-source ~/.vim/keymaps.vim
-source ~/.vim/utils.vim
+source ~/.config/nvim/keymaps.vim
+source ~/.config/nvim/utils.vim
 
 " config for nerdtree-git-plugin
 let g:NERDTreeGitStatusUseNerdFonts = 1
