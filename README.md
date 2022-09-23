@@ -2,14 +2,12 @@
 
 ### setup
 
-[first install neovim](https://github.com/neovim/neovim#install-from-package)
+first [install `neovim`](https://github.com/neovim/neovim#install-from-package)
 ```sh
 brew install neovim # I'm using this command cause I'm MacOS user
 ```
 
-then install `vim-plug` for plugins management
-[how to install vim-plug](https://github.com/junegunn/vim-plug#neovim)
-
+then [install `vim-plug`](https://github.com/junegunn/vim-plug#neovim) for plugins management
 
 then clone the configs
 ```sh
