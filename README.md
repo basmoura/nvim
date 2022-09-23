@@ -28,6 +28,8 @@ After install the font I just needed to change the font at iTerm2
 
 ### GUI suggestion
 https://github.com/qvacua/vimr (best for MacOS)
+
+
 https://github.com/daa84/neovim-gtk (best for Linux distros)
 
 ### example
