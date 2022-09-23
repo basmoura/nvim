@@ -2,9 +2,9 @@
 
 ### setup
 
-first [install `neovim`](https://github.com/neovim/neovim#install-from-package)
+first, [install `neovim`](https://github.com/neovim/neovim#install-from-package)
 ```sh
-brew install neovim # I'm using this command cause I'm MacOS user
+brew install neovim # I'm using this command cause I'm a MacOS user
 ```
 
 then [install `vim-plug`](https://github.com/junegunn/vim-plug#neovim) for plugins management
@@ -14,15 +14,14 @@ then clone the configs
 git clone https://github.com/basmoura/nvim.git ~/.config/nvim
 ```
 
-after clone the repo, please run `nvim` to open NeoVim then type `:PlugInstall` to install the
+after cloning the repo, please run `nvim` to open NeoVim then type `:PlugInstall` to install the
 plugins
 
 ### setup dev-icons
 
-first you need to install a [Nerd Font](https://www.nerdfonts.com/#home). I'm using FiraCode, but
-you use any you prefer.
+first, you need to install a [Nerd Font](https://www.nerdfonts.com/#home). I'm using FiraCode
 
-After install the font I just needed to change the font at iTerm2
+After installing the font I just needed to change the font at iTerm2
 
 ### GUI suggestion
 https://github.com/qvacua/vimr (best for MacOS)
